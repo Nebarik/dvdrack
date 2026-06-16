@@ -1,0 +1,8 @@
+{
+  "appId": "com.dvdrack.app",
+  "appName": "DVDRack",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  }
+}

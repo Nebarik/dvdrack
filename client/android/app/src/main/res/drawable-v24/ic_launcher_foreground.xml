@@ -1,0 +1,84 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+
+    <!-- Shelf -->
+    <path
+        android:fillColor="#8B7355"
+        android:pathData="M24,70 L84,70 L84,74 L24,74 Z" />
+
+    <!-- DVD Case 1 (left) -->
+    <path
+        android:fillColor="#e74c3c"
+        android:pathData="M28,38 L32,38 L32,70 L28,70 Z" />
+    <path
+        android:fillColor="#c0392b"
+        android:pathData="M32,38 L33.2,39 L33.2,71 L32,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M29.2,42 L30.5,42 L30.5,66 L29.2,66 Z"
+        android:alpha="0.3" />
+
+    <!-- DVD Case 2 -->
+    <path
+        android:fillColor="#3498db"
+        android:pathData="M33.5,38 L38.5,38 L38.5,70 L33.5,70 Z" />
+    <path
+        android:fillColor="#2980b9"
+        android:pathData="M38.5,38 L39.7,39 L39.7,71 L38.5,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M35,42 L36.3,42 L36.3,66 L35,66 Z"
+        android:alpha="0.3" />
+
+    <!-- DVD Case 3 -->
+    <path
+        android:fillColor="#2ecc71"
+        android:pathData="M40,38 L44.5,38 L44.5,70 L40,70 Z" />
+    <path
+        android:fillColor="#27ae60"
+        android:pathData="M44.5,38 L45.7,39 L45.7,71 L44.5,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M41.3,42 L42.6,42 L42.6,66 L41.3,66 Z"
+        android:alpha="0.3" />
+
+    <!-- DVD Case 4 -->
+    <path
+        android:fillColor="#f39c12"
+        android:pathData="M46,38 L51,38 L51,70 L46,70 Z" />
+    <path
+        android:fillColor="#e67e22"
+        android:pathData="M51,38 L52.2,39 L52.2,71 L51,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M47.5,42 L48.8,42 L48.8,66 L47.5,66 Z"
+        android:alpha="0.3" />
+
+    <!-- DVD Case 5 -->
+    <path
+        android:fillColor="#9b59b6"
+        android:pathData="M52.5,38 L56.5,38 L56.5,70 L52.5,70 Z" />
+    <path
+        android:fillColor="#8e44ad"
+        android:pathData="M56.5,38 L57.7,39 L57.7,71 L56.5,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M53.7,42 L55,42 L55,66 L53.7,66 Z"
+        android:alpha="0.3" />
+
+    <!-- DVD Case 6 -->
+    <path
+        android:fillColor="#e91e63"
+        android:pathData="M58,38 L63,38 L63,70 L58,70 Z" />
+    <path
+        android:fillColor="#c2185b"
+        android:pathData="M63,38 L64.2,39 L64.2,71 L63,70 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M59.5,42 L60.8,42 L60.8,66 L59.5,66 Z"
+        android:alpha="0.3" />
+
+</vector>

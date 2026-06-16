@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#1a1a1a"/>
+
+  <!-- Shelf -->
+  <rect x="10" y="65" width="80" height="5" fill="#8B7355"/>
+
+  <!-- DVD Case 1 (left, red) -->
+  <rect x="15" y="33" width="4" height="32" fill="#e74c3c"/>
+  <polygon points="19,33 20.2,34 20.2,66 19,65" fill="#c0392b"/>
+  <rect x="16.2" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+
+  <!-- DVD Case 2 (blue) -->
+  <rect x="20.5" y="33" width="5" height="32" fill="#3498db"/>
+  <polygon points="25.5,33 26.7,34 26.7,66 25.5,65" fill="#2980b9"/>
+  <rect x="22" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+
+  <!-- DVD Case 3 (green) -->
+  <rect x="27" y="33" width="4.5" height="32" fill="#2ecc71"/>
+  <polygon points="31.5,33 32.7,34 32.7,66 31.5,65" fill="#27ae60"/>
+  <rect x="28.3" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+
+  <!-- DVD Case 4 (orange) -->
+  <rect x="33" y="33" width="5" height="32" fill="#f39c12"/>
+  <polygon points="38,33 39.2,34 39.2,66 38,65" fill="#e67e22"/>
+  <rect x="34.5" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+
+  <!-- DVD Case 5 (purple) -->
+  <rect x="39.5" y="33" width="4" height="32" fill="#9b59b6"/>
+  <polygon points="43.5,33 44.7,34 44.7,66 43.5,65" fill="#8e44ad"/>
+  <rect x="40.7" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+
+  <!-- DVD Case 6 (pink) -->
+  <rect x="45" y="33" width="5" height="32" fill="#e91e63"/>
+  <polygon points="50,33 51.2,34 51.2,66 50,65" fill="#c2185b"/>
+  <rect x="46.5" y="38" width="1.2" height="24" fill="#ffffff" opacity="0.3"/>
+</svg>

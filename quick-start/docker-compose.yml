@@ -1,0 +1,23 @@
+services:
+
+  dvdrack-server:
+    image: nebarik/dvdrack-server:latest
+    container_name: dvdrack-server
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    env_file:
+      - .env
+    ports:
+      - 3001:3001
+
+  dvdrack-client:
+    image: nebarik/dvdrack-client:latest
+    container_name: dvdrack-client
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - ${WEB_PORT}:80
+    depends_on:
+      - dvdrack-server

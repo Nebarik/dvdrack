@@ -1,0 +1,37 @@
+services:
+
+  dvdrack-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    container_name: dvdrack-server
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
+    env_file:
+      - .env
+    ports:
+      - 3001:3001
+#     networks:
+#       - reverse
+
+  dvdrack-client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    container_name: dvdrack-client
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - ${WEB_PORT}:80
+    depends_on:
+      - dvdrack-server
+#     networks:
+#       - reverse
+
+# networks:
+#   reverse:
+#     name: reverse
+#     driver: bridge
+#     external: true

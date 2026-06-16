@@ -16,7 +16,7 @@ No subscriptions, no online store, no extraneous "features" to clutter up everyt
 
 ## Quick Start
 
-Docker compose file, .env example and instructions can be found on [docker hub](https://hub.docker.com/repository/docker/nebarik/dvdrack-client/general). 
+Docker compose file, .env example and instructions can be found on [docker hub](https://hub.docker.com/r/nebarik/dvdrack-client). 
 
 Or the same instructions again but from this repo below:
 
